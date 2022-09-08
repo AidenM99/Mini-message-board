@@ -4,5 +4,36 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+form button {
+  margin-top: 1rem;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.message-container .user {
+  font-weight: bold;
+}
+
+.message-container .date {
+  font-style: italic;
+  align-self: flex-end;
+}
+
+.message-container p {
+  margin: 0.5rem 0;
 }
