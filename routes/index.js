@@ -7,7 +7,7 @@ const formatDate = (date) => {
   const newDate = `${toString
     .split(" ")
     .slice(1, 4)
-    .join(" ")} at ${toString.slice(16, 21)}`;
+    .join(" ")} at ${toString.slice(16, 21)} (UTC)`;
 
   return newDate;
 };
